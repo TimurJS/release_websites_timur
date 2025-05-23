@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    background-color:black;
+    text-align: center;
+
+}
+main{
+    
+}
+
+h1 {
+    color: white
+}
+h1:hover{
+    color:rgb(74, 208, 248);
+    transition: color 0.8s ease;
+ 
+}
+img{
+    width: 300px;
+    position: relative;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s;   
+    justify-content: center;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+p{
+    color: white;
+    font-size: 15px;
+    text-shadow: 0 0 15px #ffffff;
+    background: linear-gradient( #000000, #000000);
+    font-weight: bold;
+    transition: color 0.5s ease-in-out;
+}
+p:hover{
+    color:aquamarine;
+    transition: color 0.8s ease;
+    
+}
+
+.Aster{
+    width: 400px;
+    text-align: center;
+    
+}
+h2{
+    color: white;
+}
+.Komet{
+    width: 400px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    padding:150px;
+    font-size: 20px;
+}
+a:hover{
+    transform: scale(1.2);
+    
+}
